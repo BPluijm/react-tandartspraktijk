@@ -16,7 +16,7 @@ import './App.css';
 function App() {
     return (
         <Router>
-            <Topmenu />
+            <TopMenu />
             <Switch>
                 <Route exact path="/">
                     <HomePage />
